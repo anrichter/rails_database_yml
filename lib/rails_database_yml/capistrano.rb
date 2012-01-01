@@ -26,5 +26,5 @@ EOF
     end
   end
   after "deploy:setup", "rails_database:setup"
-  after "deploy:update_code", "rails_database:symlink"
+  before "deploy:finalize_update", "rails_database:symlink"
 end
