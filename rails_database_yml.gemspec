@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{Tasks and files to help the handle the database.yml in rails projects.}
   s.description = %q{This gem provide capistrano Tasks for the database.yml file in deployments of rails applications.}
+  s.license     = 'MIT'
 
   s.rubyforge_project = "rails_database_yml"
 
